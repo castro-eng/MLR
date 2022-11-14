@@ -1,0 +1,166 @@
+# Compiled Fortran files
+/bin/*
+/include/*
+!/bin/.gitkeep
+!/include/.gitkeep
+
+# Output result from the experiments
+# -----------------------------------------------------------------
+# Validation of the Reduced Model experiment (Exp1) (section 5.1)
+/experiment/Exp1/HighFidelity01/out/*
+/experiment/Exp1/HighFidelity02/out/*
+/experiment/Exp1/HighFidelity03/out/*
+/experiment/Exp1/HighFidelity04/out/*
+/experiment/Exp1/Reference/out/*
+/experiment/Exp1/Reduced01/out/*
+/experiment/Exp1/Reduced02/out/*
+/experiment/Exp1/Reduced03/out/*
+/experiment/Exp1/Reduced04/out/*
+!/experiment/Exp1/HighFidelity01/out/.gitkeep
+!/experiment/Exp1/HighFidelity02/out/.gitkeep
+!/experiment/Exp1/HighFidelity03/out/.gitkeep
+!/experiment/Exp1/HighFidelity04/out/.gitkeep
+!/experiment/Exp1/Reference/out/.gitkeep
+!/experiment/Exp1/Reduced01/out/.gitkeep
+!/experiment/Exp1/Reduced02/out/.gitkeep
+!/experiment/Exp1/Reduced03/out/.gitkeep
+!/experiment/Exp1/Reduced04/out/.gitkeep
+
+
+# -----------------------------------------------------------------
+# Transmissibility Sensitivity Analysis (Exp2)
+# Effects of the Fault Zone and Effects of Fault Anisotropy (section 5.2.3 and 5.2.4)
+/experiment/Exp2/1Layer/Alinhamento0016/out/*
+/experiment/Exp2/1Layer/Alinhamento0031/out/*
+/experiment/Exp2/1Layer/Alinhamento0062/out/*
+/experiment/Exp2/1Layer/Alinhamento0125/out/*
+/experiment/Exp2/1Layer/Alinhamento0250/out/*
+/experiment/Exp2/1Layer/Alinhamento0500/out/*
+/experiment/Exp2/1Layer/Alinhamento0750/out/*
+/experiment/Exp2/1Layer/Alinhamento0813/out/*
+/experiment/Exp2/1Layer/Alinhamento0875/out/*
+/experiment/Exp2/1Layer/Alinhamento1000/out/*
+!/experiment/Exp2/1Layer/Alinhamento0016/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0031/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0062/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0125/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0250/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0500/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0750/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0813/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento0875/out/.gitkeep
+!/experiment/Exp2/1Layer/Alinhamento1000/out/.gitkeep
+
+# Effects of Multiple Layers (section 5.2.5)
+/experiment/Exp2/3Layer/Alinhamento0016/out/*
+/experiment/Exp2/3Layer/Alinhamento0031/out/*
+/experiment/Exp2/3Layer/Alinhamento0062/out/*
+/experiment/Exp2/3Layer/Alinhamento0125/out/*
+/experiment/Exp2/3Layer/Alinhamento0250/out/*
+/experiment/Exp2/3Layer/Alinhamento0500/out/*
+/experiment/Exp2/3Layer/Alinhamento0750/out/*
+/experiment/Exp2/3Layer/Alinhamento0813/out/*
+/experiment/Exp2/3Layer/Alinhamento0875/out/*
+/experiment/Exp2/3Layer/Alinhamento1000/out/*
+!/experiment/Exp2/3Layer/Alinhamento0016/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0031/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0062/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0125/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0250/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0500/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0750/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0813/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento0875/out/.gitkeep
+!/experiment/Exp2/3Layer/Alinhamento1000/out/.gitkeep
+
+# Anisotropy Effects (section 5.2.2)
+/experiment/Exp2/Anisotropy/Alinhamento0016/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0031/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0062/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0125/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0250/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0500/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0750/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0813/out/*
+/experiment/Exp2/Anisotropy/Alinhamento0875/out/*
+/experiment/Exp2/Anisotropy/Alinhamento1000/out/*
+!/experiment/Exp2/Anisotropy/Alinhamento0016/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0031/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0062/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0125/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0250/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0500/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0750/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0813/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento0875/out/.gitkeep
+!/experiment/Exp2/Anisotropy/Alinhamento1000/out/.gitkeep
+
+# Influence of the Aspect Ratio (section 5.2.1)
+/experiment/Exp2/AspectRatio/Alinhamento0016/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0031/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0062/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0125/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0250/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0500/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0750/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0813/out/*
+/experiment/Exp2/AspectRatio/Alinhamento0875/out/*
+/experiment/Exp2/AspectRatio/Alinhamento1000/out/*
+!/experiment/Exp2/AspectRatio/Alinhamento0016/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0031/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0062/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0125/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0250/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0500/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0750/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0813/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento0875/out/.gitkeep
+!/experiment/Exp2/AspectRatio/Alinhamento1000/out/.gitkeep
+
+# -----------------------------------------------------------------
+# Multi-Layered Fault Zone experiment (Exp3)
+# Internal Damage Zone Structure based on Outcrop Data (section 6.1)
+/experiment/Exp3/InternalDamageZone/SecAA/out/*
+/experiment/Exp3/InternalDamageZone/SecBB/out/*
+/experiment/Exp3/InternalDamageZone/SecCC/out/*
+/experiment/Exp3/InternalDamageZone/Topo/out/*
+!/experiment/Exp3/InternalDamageZone/SecAA/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/SecBB/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/SecCC/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/Topo/out/.gitkeep
+
+# External Damage Zone (section 6.2)
+/experiment/Exp3/InternalDamageZone/Reduzido_CasoA/out/*
+/experiment/Exp3/InternalDamageZone/Reduzido_CasoB/out/*
+/experiment/Exp3/InternalDamageZone/Reduzido_CasoC/out/*
+/experiment/Exp3/InternalDamageZone/Reduzido_CasoD/out/*
+/experiment/Exp3/InternalDamageZone/Reduzido_CasoE/out/*
+/experiment/Exp3/InternalDamageZone/Reduzido_CasoF/out/*
+!/experiment/Exp3/InternalDamageZone/Reduzido_CasoA/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/Reduzido_CasoB/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/Reduzido_CasoC/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/Reduzido_CasoD/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/Reduzido_CasoE/out/.gitkeep
+!/experiment/Exp3/InternalDamageZone/Reduzido_CasoF/out/.gitkeep
+
+# Macroscopic Transmissibility (section 6.1)
+/experiment/Exp3/Simulation/Alinhamento0016/out/*
+/experiment/Exp3/Simulation/Alinhamento0031/out/*
+/experiment/Exp3/Simulation/Alinhamento0062/out/*
+/experiment/Exp3/Simulation/Alinhamento0125/out/*
+/experiment/Exp3/Simulation/Alinhamento0250/out/*
+/experiment/Exp3/Simulation/Alinhamento0500/out/*
+/experiment/Exp3/Simulation/Alinhamento0750/out/*
+/experiment/Exp3/Simulation/Alinhamento0813/out/*
+/experiment/Exp3/Simulation/Alinhamento0875/out/*
+/experiment/Exp3/Simulation/Alinhamento1000/out/*
+!/experiment/Exp3/Simulation/Alinhamento0016/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0031/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0062/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0125/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0250/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0500/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0750/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0813/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento0875/out/.gitkeep
+!/experiment/Exp3/Simulation/Alinhamento1000/out/.gitkeep

@@ -1,0 +1,131 @@
+*title{
+Estudo de Transmissividade de 2 meios sem Descontinuidade 
+}
+*exec{
+         1
+}
+*iprtin{
+         1
+}
+*tipo_arq_saida{
+         1
+}
+*solver{
+skyline
+}
+*nsd{
+         2
+}
+*ndof{
+         6
+}
+*nen{
+         4
+}
+*npint{
+         4
+}
+*nlvectP{
+         1
+}
+*nlvectF{
+         0
+}
+*grav{
+    0.0000     0.0000     0.0000
+}
+*deltaT{
+    0.0000
+}
+*tempoTotalSimulacao{
+   10.0000
+}
+*max_iter_pressao{
+         1
+}
+*codigos_cond_contorno_fluxo{
+         0
+}
+*pressao_inicial{
+   5.00000e-01
+}
+-------- Coordenadas e numero de nos --------
+*include{
+coordenadas.inc
+}
+-------- Conectividade e quantidade de elementos --------
+*include{
+conectividades.inc
+}
+-------- Conectividade e quantidade de elementos da banda de deformacao --------
+*include{
+conectividadesFratura.inc
+}
+-------- Conectividades da borda do dominio do reservatorio --------
+*include{
+conectividadesBordas.inc
+}
+-------- Array de flag indicando no preescrito --------
+*include{
+codCondContornoFluxoHorizontal.inc
+}
+-------- Array indicando o valor dos nos preescritos --------
+*include{
+valCondContornoFluxoHorizontal.inc
+}
+-------- Lista de materiais utilizados --------
+*include{
+materiais.inc
+}
+-------- Lista de materiais das multi-camadas --------
+*include{
+materiaisDescontinuidade.inc
+}
+-------- Propriedades para a transmissividade --------
+*include{
+propTransmisividade.inc
+}
+-------- Bordas preescritas --------
+*bordaPrescrita_1{
+F
+}
+*bordaPrescrita_2{
+T
+}
+*bordaPrescrita_3{
+F
+}
+*bordaPrescrita_4{
+T
+}
+*bordaPrescrita_5{
+F
+}
+*bordaPrescrita_6{
+F
+}
+*bordaPrescrita_7{
+F
+}
+*bordaPrescrita_8{
+F
+}
+*bordaPrescrita_9{
+F
+}
+*bordaPrescrita_10{
+F
+}
+*bordaPrescrita_11{
+F
+}
+*bordaPrescrita_12{
+F
+}
+*bordaPrescrita_13{
+F
+}
+*bordaPrescrita_14{
+F
+}
+
